@@ -78,4 +78,4 @@ outputs to `dist/` or whatever's in `ssg_conf.json`. ready to throw on netlify, 
 
 ## License
 
-Shizuka is open-source and available under the [MIT License](LICENSE).
+This is open-source and available under the [MIT License](LICENSE).
