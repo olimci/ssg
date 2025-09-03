@@ -4,10 +4,10 @@ ssg is a lightweight static site generator i made.
 ## features
 
 - **markdown/html core**: write content in markdown, use html templates to control layout.
-- **minimalist**: no build pipelines, no bundlers, no weird magic. just enough to work.
-- **hands-off**: it tries not to fight you. bring your own css, ignore the defaults.
-- **customisable**: basic templates included, but you're expected to edit or replace them.
-- **cli-based**: includes a small command-line tool:
+- **minimalist**: no extra features :)
+- **hands-off**: it tries not to fight you, bring your own css
+- **customisable**: basic templates included, but you're expected to edit or replace them
+- **small cli**: includes a small command-line tool:
   - `init`: scaffold a new project
   - `build`: convert markdown to html
   - `dev`: run a local server with live reload
@@ -72,10 +72,10 @@ runs a live dev server on port `8080` (change with `--port` if needed). watches 
 ssg build
 ```
 
-outputs to `dist/` or whatever's in `ssg_conf.json`. ready to throw on netlify, github pages, rsync, etc.
+outputs to `dist/`. easy to deploy
 
 ---
 
 ## License
 
-This is open-source and available under the [MIT License](LICENSE).
+this is open-source and available under the [MIT License](LICENSE).
